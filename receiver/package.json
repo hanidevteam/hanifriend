@@ -1,0 +1,17 @@
+{
+  "name": "companian-tracker",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.16.4",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "fastify": "^3.19.1",
+    "fastify-cors": "^6.0.2",
+    "isomorphic-unfetch": "^3.1.0",
+    "mongodb": "^4.0.1",
+    "striptags": "^3.2.0"
+  }
+}

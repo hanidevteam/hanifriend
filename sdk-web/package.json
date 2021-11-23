@@ -1,0 +1,21 @@
+{
+  "name": "companian-sdk-web",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode production",
+    "upload": "",
+    "dev": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "dotenv": "^10.0.0",
+    "dotenv-webpack": "^7.0.3",
+    "terser-webpack-plugin": "^5.1.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
